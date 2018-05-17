@@ -3,5 +3,10 @@
  * Config file for Anax remserver.
  */
 return [
-    // empty
+
+    // Default settings are read from files
+    "dataset" => [
+        __DIR__ . "/remserver/users.json"
+    ]
+
 ];
